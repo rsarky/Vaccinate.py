@@ -7,8 +7,6 @@ url = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDi
 
 DISTRICT_ID = '365'
 DATES = ['09-05-2021', '10-05-2021']
-params_1 = { 'date': '09-05-2021', 'district_id': '365' }
-params_2 = { 'date': '10-05-2021', 'district_id': '365' }
 
 with open('headers.json', 'r') as f:
     headers = f.read()
